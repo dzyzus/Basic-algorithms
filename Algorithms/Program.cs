@@ -7,6 +7,7 @@
             AppController appController = new AppController();
 
             appController.IntroduceUser();
+            appController.Menu();
         }
     }
 }

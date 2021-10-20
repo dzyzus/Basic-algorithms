@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maciej Marzec\\Documents\\GitHub\\Basic-algorithms\\Algorithms\\Algorithms.csproj": {}
+    "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms\\Algorithms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maciej Marzec\\Documents\\GitHub\\Basic-algorithms\\Algorithms\\Algorithms.csproj": {
+    "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms.Core\\Algorithms.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maciej Marzec\\Documents\\GitHub\\Basic-algorithms\\Algorithms\\Algorithms.csproj",
-        "projectName": "Algorithms",
-        "projectPath": "C:\\Users\\Maciej Marzec\\Documents\\GitHub\\Basic-algorithms\\Algorithms\\Algorithms.csproj",
-        "packagesPath": "C:\\Users\\Maciej Marzec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maciej Marzec\\Documents\\GitHub\\Basic-algorithms\\Algorithms\\obj\\",
+        "projectUniqueName": "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms.Core\\Algorithms.Core.csproj",
+        "projectName": "Algorithms.Core",
+        "projectPath": "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms.Core\\Algorithms.Core.csproj",
+        "packagesPath": "C:\\Users\\wrkmm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Maciej Marzec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wrkmm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,69 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms\\Algorithms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms\\Algorithms.csproj",
+        "projectName": "Algorithms",
+        "projectPath": "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms\\Algorithms.csproj",
+        "packagesPath": "C:\\Users\\wrkmm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wrkmm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms.Core\\Algorithms.Core.csproj": {
+                "projectPath": "C:\\Users\\wrkmm\\Desktop\\JStraining\\Basic-algorithms\\Algorithms.Core\\Algorithms.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

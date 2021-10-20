@@ -11,3 +11,20 @@ C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms\obj\Debug\ne
 C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.dll
 C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.pdb
 C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.genruntimeconfig.cache
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.exe
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.deps.json
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.runtimeconfig.json
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.runtimeconfig.dev.json
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.dll
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.pdb
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.csproj.AssemblyReference.cache
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.AssemblyInfoInputs.cache
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.AssemblyInfo.cs
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.dll
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.pdb
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.genruntimeconfig.cache
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.Core.dll
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.Core.pdb
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.csproj.CopyComplete
