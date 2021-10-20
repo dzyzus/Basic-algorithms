@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "pUwBgLdgFyohRLsp3SwrcZaB6O5FpsVBJ+iuL5GjTiKKzKA2MdmX2hOBURWskXgan6tf4EmuIvzaISICY53oag==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Maciej Marzec\\Documents\\GitHub\\Basic-algorithms\\Algorithms.Core\\Algorithms.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maciej Marzec\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Maciej Marzec\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Projekt Algorithms nie jest zgodny z elementem netstandard2.0 (.NETStandard,Version=v2.0). Projekt Algorithms obsługuje: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "Algorithms",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}
