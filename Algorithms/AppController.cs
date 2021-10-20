@@ -9,7 +9,7 @@ namespace Algorithms
         }
         public void DoSomeAction()
         {
-            
+            Console.WriteLine("Dostępne opcje porgramu:\nc - szyfr Cezara\nexit - wyjście z programu");
         }
     }
 }
