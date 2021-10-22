@@ -1,4 +1,5 @@
 ﻿using Algorithms.Core;
+using Algorithms.Core.CaesarCipher;
 using System;
 
 namespace Algorithms
@@ -9,10 +10,6 @@ namespace Algorithms
         public void IntroduceUser()
         {
             Console.WriteLine("Aplikacja jest zbiorem algorytmów.\nUżytkownik za pomocą instrukcji sterujących może wywoływać kolejne algorytmy.");
-        }
-        public void Ceaser()
-        {
-
         }
         public void Menu()
         {
@@ -29,19 +26,32 @@ namespace Algorithms
                 switch (input)
                 {
                     case "c":
-                        Console.Write("Wybrałeś szyfr cezara.\nwstecz - aby wrócić do menu\n[int] - liczba, o którą zostanie wykonane przesunięcie.\nOpcja:");
-                        userInput = Console.ReadLine();
-
-                        while (input != "wstecz") 
+                        Console.WriteLine("Wybrałeś szyfr cezara.");
+                        while (input != "wstecz")
                         {
+                            Console.Write("wstecz - aby wrócić do menu\nurl_input - ścieżkę do tekstu jawnego\nurl_output - ścieżkę gdzie ma zostać zapisany zaszyfrowany tekst\n" +
+                                "[int] - liczba, o którą zostanie wykonane przesunięcie.\nszyfruj - rozpocznij szyfrowanie(jeśli masz podane wszystkie zmienne)\nOpcja:");
+                            userInput = Console.ReadLine();
                             input = userInput.ToLower();
                             if (input == "wstecz")
                                 break;
+                            else if (input == "url_input")
+                            {
+                                var pathIn = Operations.GetPathInput(input);
+
+                            }
+                            else if (input == "url_output")
+                            {
+                                var pathOut = Operations.GetPathOutput(input);
+                            }
+                            else if(input == "szyfruj")
+                            {
+                                //
+                            }
                             else
                             {
                                 var number = Operations.TryparseUerInput(input);
                                 Console.WriteLine("Przesunięcie o: " + number);
-                                break;
                             }
                         }
                         break;

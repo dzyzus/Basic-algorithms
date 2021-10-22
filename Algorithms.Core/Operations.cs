@@ -17,5 +17,19 @@ namespace Algorithms.Core
 
             return number;
         }
+
+        public static string GetPathInput(string path)
+        {
+            Console.Write("Podaj ścieżkę do pliku: ");
+            var inputPath = Console.ReadLine();
+
+            return inputPath;
+        }
+        public static string GetPathOutput(string path)
+        {
+            var outputPath = path;
+
+            return outputPath;
+        }
     }
 }
