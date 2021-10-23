@@ -38,9 +38,10 @@ namespace Algorithms
                                 break;
                             else if (input == "start")
                             {
-                                //var pathIn = Operations.GetPathInput(input);
-                                //var pathOut = Operations.GetPathOutput(input);
-                                MainLogic.CaesarCipher();
+                                var pathIn = Operations.GetPathInput();
+                                var pathOut = Operations.GetPathOutput();
+                                var numberOfShifts = CaesarOperations.GetNumberOfShifts();
+                                CaesarOperations.Crypt(pathIn, pathOut, numberOfShifts);
                                 Console.WriteLine("--------------------------------------------------------------------------");
                             }
                         }

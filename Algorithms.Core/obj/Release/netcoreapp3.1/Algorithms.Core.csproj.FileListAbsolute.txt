@@ -1,0 +1,10 @@
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\bin\Release\netcoreapp3.1\Algorithms.Core.deps.json
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\bin\Release\netcoreapp3.1\Algorithms.Core.dll
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\bin\Release\netcoreapp3.1\Algorithms.Core.pdb
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Release\netcoreapp3.1\Algorithms.Core.csproj.AssemblyReference.cache
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Release\netcoreapp3.1\Algorithms.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Release\netcoreapp3.1\Algorithms.Core.AssemblyInfoInputs.cache
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Release\netcoreapp3.1\Algorithms.Core.AssemblyInfo.cs
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Release\netcoreapp3.1\Algorithms.Core.csproj.CoreCompileInputs.cache
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Release\netcoreapp3.1\Algorithms.Core.dll
+C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Release\netcoreapp3.1\Algorithms.Core.pdb
