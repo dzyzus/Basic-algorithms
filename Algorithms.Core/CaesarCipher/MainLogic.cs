@@ -7,11 +7,28 @@ namespace Algorithms.Core.CaesarCipher
 {
     public class MainLogic
     {
-        public static string CaesarCipher(string pathIn)
+        public static void CaesarCipher(int numberOfShifts)
         {
-            var text = File.ReadAllText(pathIn);
+            string[] Alphabet = {"A", "Ą", "B", "C", "Ć" ,"D", "E", "Ę", "F", "G", "H", "I", "J", "K",
+                "L", "Ł", "M", "N", "Ń", "O", "Ó", "P", "R", "S", "Ś",
+            "T", "U", "W", "Y", "Z", "Ź", "Ż"};
 
-            return text;
+            if(numberOfShifts <= -26 && numberOfShifts >= 26)
+                Console.WriteLine("Niepoprawna wielkość przesunięcia");
+
+
+            for(int i = 0; i < Alphabet.Length; i++)
+            {
+
+            }
+        }
+        public int CheckChar(char letter)
+        {
+            if (letter >= 'a' && letter <= 'z')
+                return 0;
+            if (letter >= 'A' && letter <= 'Z')
+                return 1;
+            return 2;
         }
     }
 }

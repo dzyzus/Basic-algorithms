@@ -29,29 +29,19 @@ namespace Algorithms
                         Console.WriteLine("Wybrałeś szyfr cezara.");
                         while (input != "wstecz")
                         {
-                            Console.Write("wstecz - aby wrócić do menu\nurl_input - ścieżkę do tekstu jawnego\nurl_output - ścieżkę gdzie ma zostać zapisany zaszyfrowany tekst\n" +
-                                "[int] - liczba, o którą zostanie wykonane przesunięcie.\nszyfruj - rozpocznij szyfrowanie(jeśli masz podane wszystkie zmienne)\nOpcja:");
+                            Console.Write("start - zostaniesz poproszony o url do pliku z tekstem jawnym, url gdzie ma zostać wypisany wynik, jakie przesunięcie chcesz wykonać." +
+                                "\nwstecz - wróć do poprzedniego menu.\n");
+                            Console.Write("Opcja: ");
                             userInput = Console.ReadLine();
                             input = userInput.ToLower();
                             if (input == "wstecz")
                                 break;
-                            else if (input == "url_input")
+                            else if (input == "start")
                             {
-                                var pathIn = Operations.GetPathInput(input);
-
-                            }
-                            else if (input == "url_output")
-                            {
-                                var pathOut = Operations.GetPathOutput(input);
-                            }
-                            else if(input == "szyfruj")
-                            {
-                                //
-                            }
-                            else
-                            {
-                                var number = Operations.TryparseUerInput(input);
-                                Console.WriteLine("Przesunięcie o: " + number);
+                                //var pathIn = Operations.GetPathInput(input);
+                                //var pathOut = Operations.GetPathOutput(input);
+                                MainLogic.CaesarCipher();
+                                Console.WriteLine("--------------------------------------------------------------------------");
                             }
                         }
                         break;

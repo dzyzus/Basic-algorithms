@@ -20,14 +20,15 @@ namespace Algorithms.Core
 
         public static string GetPathInput(string path)
         {
-            Console.Write("Podaj ścieżkę do pliku: ");
+            Console.Write("Podaj ścieżkę do pliku z tekstem jawnym: ");
             var inputPath = Console.ReadLine();
 
             return inputPath;
         }
         public static string GetPathOutput(string path)
         {
-            var outputPath = path;
+            Console.Write("Podaj ścieżkę gdzie ma zostać utworzony plik z tekstem zaszyfrowanym: ");
+            var outputPath = Console.ReadLine();
 
             return outputPath;
         }
