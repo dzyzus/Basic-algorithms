@@ -8,14 +8,18 @@ namespace Algorithms.Core.CaesarCipher
         {
             char[] LowerAlphabet = {'a', 'ą', 'b', 'c', 'ć' ,'d', 'e', 'ę', 'f', 'g', 'h', 'i', 'j', 'k',
                 'l', 'ł', 'm', 'n', 'ń', 'o', 'ó', 'p', 'r', 's', 'ś',
+            't', 'u', 'w', 'y', 'z', 'ź', 'ż', 'a', 'ą', 'b', 'c', 'ć' ,'d', 'e', 'ę', 'f', 'g', 'h', 'i', 'j', 'k',
+                'l', 'ł', 'm', 'n', 'ń', 'o', 'ó', 'p', 'r', 's', 'ś',
             't', 'u', 'w', 'y', 'z', 'ź', 'ż'};
 
             char[] Alphabet = {'A', 'Ą', 'B', 'C', 'Ć' ,'D', 'E', 'Ę', 'F', 'G', 'H', 'I', 'J', 'K',
                 'L', 'Ł', 'M', 'N', 'Ń', 'O', 'Ó', 'P', 'R', 'S', 'Ś',
+            'T', 'U', 'W', 'Y', 'Z', 'Ź', 'Ż', 'A', 'Ą', 'B', 'C', 'Ć' ,'D', 'E', 'Ę', 'F', 'G', 'H', 'I', 'J', 'K',
+                'L', 'Ł', 'M', 'N', 'Ń', 'O', 'Ó', 'P', 'R', 'S', 'Ś',
             'T', 'U', 'W', 'Y', 'Z', 'Ź', 'Ż'};
 
 
-            if (numberOfShifts <= -32 && numberOfShifts >= 32)
+            if (numberOfShifts <= -31 && numberOfShifts >= 31)
             {
                 Console.WriteLine("Niepoprawna wielkość przesunięcia");
             }
