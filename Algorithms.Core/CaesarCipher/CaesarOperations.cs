@@ -28,7 +28,7 @@ namespace Algorithms.Core.CaesarCipher
             //problemo z textem 
             foreach(var letter in plainText)
             {
-                File.AppendAllText(outputPath, (MainLogic.CaesarCipher(numberOfShifts, letter)).ToString());
+                cryptedText += MainLogic.CaesarCipher(numberOfShifts, letter).ToString();
             }
 
             File.AppendAllText(outputPath, cryptedText);

@@ -30,16 +30,20 @@ namespace Algorithms
                         while (input != "wstecz")
                         {
                             Console.Write("start - zostaniesz poproszony o url do pliku z tekstem jawnym, url gdzie ma zostać wypisany wynik, jakie przesunięcie chcesz wykonać." +
-                                "\nwstecz - wróć do poprzedniego menu.\n");
+                                "\nback - wróć do poprzedniego menu.\n");
                             Console.Write("Opcja: ");
                             userInput = Console.ReadLine();
                             input = userInput.ToLower();
-                            if (input == "wstecz")
+                            if (input == "back")
                                 break;
                             else if (input == "start")
                             {
                                 var pathIn = Operations.GetPathInput();
+                                if(pathIn == null)
+                                    break;
                                 var pathOut = Operations.GetPathOutput();
+                                if (pathOut == null)
+                                    break;
                                 var numberOfShifts = CaesarOperations.GetNumberOfShifts();
                                 CaesarOperations.Crypt(pathIn, pathOut, numberOfShifts);
                                 Console.WriteLine("--------------------------------------------------------------------------");
