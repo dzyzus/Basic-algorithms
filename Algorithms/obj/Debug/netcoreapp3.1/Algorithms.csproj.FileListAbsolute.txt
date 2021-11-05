@@ -28,3 +28,6 @@ C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcorea
 C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.Core.dll
 C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.Core.pdb
 C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.csproj.CopyComplete
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.Core.dll
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.Core.pdb
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.csproj.CopyComplete

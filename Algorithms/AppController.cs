@@ -29,14 +29,13 @@ namespace Algorithms
                         Console.WriteLine("Wybrałeś szyfr cezara.");
                         while (input != "wstecz")
                         {
-                            Console.Write("start - zostaniesz poproszony o url do pliku z tekstem jawnym, url gdzie ma zostać wypisany wynik, jakie przesunięcie chcesz wykonać." +
-                                "\nback - wróć do poprzedniego menu.\n");
+                            Console.Write("crypt - szyfrowanie\ndecrypt - rozszyfrowanie\nback - wróć do poprzedniego menu.\n");
                             Console.Write("Opcja: ");
                             userInput = Console.ReadLine();
                             input = userInput.ToLower();
                             if (input == "back")
                                 break;
-                            else if (input == "start")
+                            else if (input == "crypt")
                             {
                                 var pathIn = Operations.GetPathInput();
                                 if(pathIn == null)
@@ -46,6 +45,18 @@ namespace Algorithms
                                     break;
                                 var numberOfShifts = CaesarOperations.GetNumberOfShifts();
                                 CaesarOperations.Crypt(pathIn, pathOut, numberOfShifts);
+                                Console.WriteLine("--------------------------------------------------------------------------");
+                            }
+                            else if (input == "decrypt")
+                            {
+                                var pathIn = Operations.GetCryptedPathInput();
+                                if (pathIn == null)
+                                    break;
+                                var pathOut = Operations.GetCryptedPathOutput();
+                                if (pathOut == null)
+                                    break;
+                                var numberOfShifts = CaesarOperations.GetNumberOfShifts();
+                                CaesarOperations.Decrypt(pathIn, pathOut, numberOfShifts);
                                 Console.WriteLine("--------------------------------------------------------------------------");
                             }
                         }

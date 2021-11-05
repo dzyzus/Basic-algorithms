@@ -41,5 +41,25 @@ namespace Algorithms.Core
 
             return outputPath;
         }
+        public static string GetCryptedPathInput()
+        {
+            Console.Write("Podaj ścieżkę do pliku z tekstem zaszyfrowanym: ");
+            var inputCryptedPath = Console.ReadLine();
+
+            if (File.Exists(inputCryptedPath))
+                return inputCryptedPath;
+            else
+            {
+                Console.WriteLine("Pod podanym url nie ma pliku z tekstem zaszyfrowanym.");
+                return null;
+            }
+        }
+        public static string GetCryptedPathOutput()
+        {
+            Console.Write("Podaj ścieżkę gdzie ma zostać utworzony plik z tekstem odszyfrowanym: ");
+            var outputDecryptedPath = Console.ReadLine();
+
+            return outputDecryptedPath;
+        }
     }
 }

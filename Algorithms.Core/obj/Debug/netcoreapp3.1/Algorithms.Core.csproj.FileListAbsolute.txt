@@ -8,3 +8,12 @@ C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Debug\net
 C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Debug\netcoreapp3.1\Algorithms.Core.dll
 C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Debug\netcoreapp3.1\Algorithms.Core.pdb
 C:\Users\wrkmm\Desktop\JStraining\Basic-algorithms\Algorithms.Core\obj\Debug\netcoreapp3.1\Algorithms.Core.csproj.AssemblyReference.cache
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms.Core\bin\Debug\netcoreapp3.1\Algorithms.Core.deps.json
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms.Core\bin\Debug\netcoreapp3.1\Algorithms.Core.dll
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms.Core\bin\Debug\netcoreapp3.1\Algorithms.Core.pdb
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms.Core\obj\Debug\netcoreapp3.1\Algorithms.Core.csprojAssemblyReference.cache
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms.Core\obj\Debug\netcoreapp3.1\Algorithms.Core.AssemblyInfoInputs.cache
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms.Core\obj\Debug\netcoreapp3.1\Algorithms.Core.AssemblyInfo.cs
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms.Core\obj\Debug\netcoreapp3.1\Algorithms.Core.csproj.CoreCompileInputs.cache
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms.Core\obj\Debug\netcoreapp3.1\Algorithms.Core.dll
+C:\Users\Maciej Marzec\Documents\GitHub\Basic-algorithms\Algorithms.Core\obj\Debug\netcoreapp3.1\Algorithms.Core.pdb

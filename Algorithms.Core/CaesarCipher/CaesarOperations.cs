@@ -33,5 +33,25 @@ namespace Algorithms.Core.CaesarCipher
 
             File.AppendAllText(outputPath, cryptedText);
         }
+        public static void Decrypt(string inputCryptedPath, string outputCryptedPath, int numberOfShifts)
+        {
+            var cryptedText = File.ReadAllText(inputCryptedPath);
+
+            if (!File.Exists(outputCryptedPath))
+            {
+                var cryptFile = File.Create(outputCryptedPath);
+                cryptFile.Close();
+            }
+            var decryptedText = "";
+
+            //problemo z textem 
+            foreach (var letter in cryptedText)
+            {
+                decryptedText += MainLogic.Decrypt(numberOfShifts, letter).ToString();
+            }
+
+            File.AppendAllText(outputCryptedPath, decryptedText);
+
+        }
     }
 }
